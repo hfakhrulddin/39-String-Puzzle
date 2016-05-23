@@ -70,19 +70,20 @@ namespace Distinct_occurrences
         {
             totalHoccurrences = 0;
             HWordStr = null;
-            int zr =0;
-            int lr =0;
+            int zr = 0;
+            int lr = 0;
 
             for (int z = 0; z < h; z++)
             {
                 for (int x = 0; x < w; x++)
                 {
-                    for (int l = x; l < w-z; l++)
+                    for (int l = x; l < w - z; l++)
                     {
-                        if (z+zr>=h) { continue; };
+                        if (z + zr >= h) { continue; };
                         if ((z == 0 || l == 0) && (lr == 0)) { HWordStr = HWordStr + (puzzle[z, l]).ToString(); }
-                        else{ HWordStr = HWordStr + (puzzle[z+zr, l]).ToString(); }
-                        if (HWordStr.Length == 1) { 
+                        else { HWordStr = HWordStr + (puzzle[z + zr, l]).ToString(); }
+                        if (HWordStr.Length == 1)
+                        {
                             zr++;
                             lr++;
                             continue;
@@ -106,5 +107,7 @@ namespace Distinct_occurrences
             }
             return totalHoccurrences;
         }
+
+
     }
 }

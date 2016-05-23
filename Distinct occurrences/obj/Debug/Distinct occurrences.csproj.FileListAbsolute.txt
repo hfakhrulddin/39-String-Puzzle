@@ -13,3 +13,6 @@ C:\Div\Origin\39-String-Puzzle\Distinct occurrences\Distinct occurrences\obj\Deb
 C:\Div\Origin\39-String-Puzzle\Distinct occurrences\bin\Debug\Distinct occurrences.exe.config
 C:\Div\Origin\39-String-Puzzle\Distinct occurrences\obj\Debug\Distinct occurrences.exe
 C:\Div\Origin\39-String-Puzzle\Distinct occurrences\obj\Debug\Distinct occurrences.pdb
+C:\Div\Origin\39-String-Puzzle\Distinct occurrences\bin\Debug\Distinct occurrences.exe
+C:\Div\Origin\39-String-Puzzle\Distinct occurrences\bin\Debug\Distinct occurrences.pdb
+C:\Div\Origin\39-String-Puzzle\Distinct occurrences\obj\Debug\Distinct occurrences.csprojResolveAssemblyReference.cache
